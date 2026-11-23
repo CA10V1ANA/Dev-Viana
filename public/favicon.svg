@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <style>
+    .bracket { stroke: #1B262B; }
+    .slash { fill: #0D646E; }
+    @media (prefers-color-scheme: dark) {
+      .bracket { stroke: #F4F1EC; }
+      .slash { fill: #4EC4CF; }
+    }
+  </style>
+  <path
+    class="bracket"
+    d="M21 17L7 32L21 47"
+    stroke-width="6.5"
+    stroke-linecap="butt"
+    stroke-linejoin="miter"
+  />
+  <path
+    class="bracket"
+    d="M43 17L57 32L43 47"
+    stroke-width="6.5"
+    stroke-linecap="butt"
+    stroke-linejoin="miter"
+  />
+  <polygon
+    class="slash"
+    points="34.2,9 41.2,10.8 29.8,55 22.8,53.2"
+  />
+</svg>
